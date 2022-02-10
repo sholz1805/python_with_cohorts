@@ -25,7 +25,7 @@ for i in range(len(list_of_names)):
         value = list_of_names[i]
 
 # print(value)
-# print(maximum)
+# print(maximum_sum)
 
 name_contains = list_of_names[i].__contains__('gen')
 print(name_contains)

@@ -28,12 +28,12 @@ for i in range(len(list_of_names)):
         # print(list_of_names[i])
 
 #         length = len(list_of_names[i]) == 5
-#         if maximum > length:
-#             maximum = length
+#         if maximum_sum > length:
+#             maximum_sum = length
 #             value = list_of_names[5]
 
 # print(value)
-# print(maximum)
+# print(maximum_sum)
 
 
 for i in range(9):
@@ -50,32 +50,32 @@ print(len(list_of_names[i]))
 
 #
 # value = "a"
-# maximum = 0
+# maximum_sum = 0
 # for i in range(len(list_of_names)):
 #     # if i == 0:
 #         length = len(list_of_names[i])
-#         if maximum < length:
-#             maximum = length
+#         if maximum_sum < length:
+#             maximum_sum = length
 #             value = list_of_names[i]
 
 # print(value)
-# print(maximum)
+# print(maximum_sum)
 
 
 # if i > 0:
 #     length = len(list_of_names[i])
-#     if maximum < length:
-#         maximum = length
+#     if maximum_sum < length:
+#         maximum_sum = length
 #         value = list_of_names[i]
 
 # value = "a"
-# minimum = sys.maxsize
+# minimum_sum = sys.maxsize
 # for i in range(len(list_of_names)):
 #     # if i == 0:
 #         length = len(list_of_names[i])
-#         if minimum > length:
-#             minimum = length
+#         if minimum_sum > length:
+#             minimum_sum = length
 #             value = list_of_names[i]
 #
 # print(value)
-# print(minimum)
+# print(minimum_sum)

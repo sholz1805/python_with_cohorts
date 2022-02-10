@@ -7,7 +7,7 @@ beats_per_minute=220
 
 maximum_heart_rate=beats_per_minute - Age
 
-print("The maximum heart rate is: ",maximum_heart_rate)
+print("The maximum_sum heart rate is: ",maximum_heart_rate)
 
 target_heart_rate=(maximum_heart_rate / beats_per_minute) * 100
 target_heart_rate=int(target_heart_rate)

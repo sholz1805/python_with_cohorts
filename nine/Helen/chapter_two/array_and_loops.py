@@ -43,7 +43,7 @@
 # for i in range(len(list_of_name)):
 #     length =  len(list_of_name[i])
 #     if mininum>length:
-#         minimum = length
+#         minimum_sum = length
 #         value = list_of_name[i]
 #         print(value)
 #         print(mininum)

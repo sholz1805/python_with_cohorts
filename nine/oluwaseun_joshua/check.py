@@ -103,8 +103,8 @@ else:
 
 
 classes=[class_a,class_b]
-# maximum=0
-# # minimum=0
+# maximum_sum=0
+# # minimum_sum=0
 
 # for i in range(len(classes)):
 #     for j in range (len(classes[i])):

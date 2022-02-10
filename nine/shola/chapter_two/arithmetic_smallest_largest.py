@@ -12,5 +12,5 @@ product = num1 * num2 * num3
 print("The addition of the 3 numbers are: ", int(addition))
 print("the average is: ", float(average))
 print("the product is: ", int(product))
-print("the maximum is: ", max(num1, num2, num3))
-print("the minimum is: ", min(num1, num2, num3))
+print("the maximum_sum is: ", max(num1, num2, num3))
+print("the minimum_sum is: ", min(num1, num2, num3))

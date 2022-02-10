@@ -21,4 +21,4 @@ for i in range(4):
 
 
 average = sum/4
-print("sum =",sum,"\nproduct =",product,"\naverage =",average,"\nmaximum =",maximum,"\nminimum =",minimum,maxsize)
+print("sum =",sum,"\nproduct =",product,"\naverage =",average,"\nmaximum_sum =",maximum,"\nminimum_sum =",minimum,maxsize)

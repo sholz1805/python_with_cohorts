@@ -24,7 +24,7 @@ a = int(input("enter first number"))
 b = int(input("Enter second number"))
 c = int(input("Enter third number"))
  
-print("maximum integer is ", maximum_value(a,b,c))
+print("maximum_sum integer is ", maximum_value(a,b,c))
 print()
 
 # import random

@@ -1,6 +1,9 @@
 import datetime
 import random
 import time
+import json
+json_data = open("C:/Users/ADMIN/Documents/chatty_box.json", "r+")
+data = json.load(json_data)
 
 
 def chatbot():
@@ -9,19 +12,20 @@ def chatbot():
 
         question = input("Ask me any Question?\n").split()
 
-        dictionary = {
-            "time": ["The time is " + str(datetime.datetime.now().time())],
-            "name": ["My name is Siri", "my name is Sam", "my name is Alexa", "my name is Sholz"],
-            "love": ["Ja, ich liebe dich!", "Nein, ich liebe dich nicht", "Scheiße", "Love is wicked"],
-            "eat": ["Yeah, baby!", "Nah 😢"],
-            "relationship": ["I'm currently single ", "I'm in a lovely relationship" " I only do mutual relationships"],
-            "programs": ["I write python sometimes", "I'm learning java", "I write Javascript",
-                         "I'm learning C#"],
-            "country": ["I've been to Canada", "I'm from the UK", "Lovely Kenya", "Extremely beautiful Latvia"],
-            "old": ["I am " + str(random.randrange(1, 100)) + " years old"],
-            "play": ["I like playing Chess", "I play computer games", "I prefer reading"],
-            "sleep": ["I rarely sleep", "I can't shutdown, I can only have a 10sec power nap daily"]
-        }
+        dictionary = data
+        # dictionary = {
+        #     "time": ["The time is " + str(datetime.datetime.now().time())],
+        #     "name": ["My name is Siri", "my name is Sam", "my name is Alexa", "my name is Sholz"],
+        #     "love": ["Ja, ich liebe dich!", "Nein, ich liebe dich nicht", "Scheiße", "Love is wicked"],
+        #     "eat": ["Yeah, baby!", "Nah 😢"],
+        #     "relationship": ["I'm currently single ", "I'm in a lovely relationship" " I only do mutual relationships"],
+        #     "programs": ["I write python sometimes", "I'm learning java", "I write Javascript",
+        #                  "I'm learning C#"],
+        #     "country": ["I've been to Canada", "I'm from the UK", "Lovely Kenya", "Extremely beautiful Latvia"],
+        #     "old": ["I am " + str(random.randrange(1, 100)) + " years old"],
+        #     "play": ["I like playing Chess", "I play computer games", "I prefer reading"],
+        #     "sleep": ["I rarely sleep", "I can't shutdown, I can only have a 10sec power nap daily"]
+        # }
 
         reply = []
 

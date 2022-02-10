@@ -19,14 +19,14 @@ print(maximum_name,"with a length of", maximum, "is the largest")
 
 
 # value='a'
-# minimum=0
+# minimum_sum=0
 # for i in range(len(list_of_names)):
 #     lenght=len(list_of_names[i])
-#     if minimum>lenght:
-#         minimum=lenght
+#     if minimum_sum>lenght:
+#         minimum_sum=lenght
 #         name=list_of_names[i]
 #     print(value)
-#     print(minimum)
+#     print(minimum_sum)
 
 minimum= len(list_of_names[name])
 for name in range(len(list_of_names)):

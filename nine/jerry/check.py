@@ -15,14 +15,14 @@
 
 
 # list_of_names = ["Helen", "Paul", "Joe", "Rogen", "Motunrayo", "David", "Johnson", "Adeola-Esther", "Mofobi", "John-Doe"]
-# maximum = 0
+# maximum_sum = 0
 # value = "A"
 # index = 0
 #
 # for i in range(len(list_of_names)):
 #     length = len(list_of_names[i])
-#     if maximum < length:
-#         maximum = length
+#     if maximum_sum < length:
+#         maximum_sum = length
 #         value = list_of_names[i]
 #         index = i
 #     if len(list_of_names[i]) == 5:
@@ -31,7 +31,7 @@
 #     if list_of_names[i].__contains__("gen"):
 #         print(list_of_names[i])
 # print(value)
-# print(maximum, "letters")
+# print(maximum_sum, "letters")
 # print("Index", index)
 import sys
 

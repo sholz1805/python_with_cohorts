@@ -15,8 +15,8 @@ for numbers in range(4):
     total = number + total
     product *= number
 
-print("The maximum number is", maximum)
-print("The minimum is", minimum)
+print("The maximum_sum number is", maximum)
+print("The minimum_sum is", minimum)
 print("The sum is", total)
 print("The average is", total/4)
 print("The product is", product)

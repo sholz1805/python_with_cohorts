@@ -30,8 +30,8 @@ print("The total value is: ",total)
 
 average=total/number
 print(f"average is: {average:>.2f}")
-print("The minimum value is: ",minimum)
-print("The maximum value is: ",maximum)
+print("The minimum_sum value is: ",minimum)
+print("The maximum_sum value is: ",maximum)
 
 
     
